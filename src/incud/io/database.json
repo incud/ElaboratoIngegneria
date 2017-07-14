@@ -1,0 +1,301 @@
+{
+	"autori" : [
+		{
+			"nomeArte": "Fabri Fibra",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},
+		{
+			"nomeArte": "TheGiornalisti",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},
+		{
+			"nomeArte": "Francesco Gabbani",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},	
+		{
+			"nomeArte": "Beatles",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},	
+		{
+			"nomeArte": "Miles Davis",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},
+		{
+			"nomeArte": "Guns N' Roses",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},
+		{
+			"nomeArte": "Mozart",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		},	
+		{
+			"nomeArte": "Ennio Morricone",
+			"generePrincipale": "RAP",
+			"annoNascita" : "11-05-1980",
+			"strumentiSuonati" : [
+				"VOCE", "PIANO"
+			]
+		}		
+	],
+	"dischi": [
+		{
+			"codice": "1",
+			"titolo": "Fenomeno",
+			"autore": "Fabri Fibra",
+			"canzoni": [
+				{
+					"titolo": "Red Carpet",
+					"partecipazioni" : [ { "musicista": "Fabri Fibra", "strumento": "VOCE"} ]
+				},
+				{
+					"titolo": "Fenomeno",
+					"partecipazioni" : [ { "musicista": "Fabri Fibra", "strumento": "VOCE"} ]
+				},
+				{
+					"titolo": "Pamplona",
+					"partecipazioni" : [ 
+						{ "musicista": "Fabri Fibra", "strumento": "VOCE"},
+						{ "musicista": "TheGiornalisti", "strumento": "VOCE"},
+						{ "musicista": "TheGiornalisti", "strumento": "CHITARRA"}
+					]
+				}
+			],
+			"prezzo": 10.50,
+			"genere": "RAP",
+			"dataCaricamento": "22-05-2017",
+			"percorsoFoto": "http://i.ebayimg.com/thumbs/images/g/Y4YAAOSwjL5ZHAjl/s-l96.jpg",
+			"descrizione": "Fenomeno è il nono album in studio del rapper italiano Fabri Fibra, pubblicato il 7 aprile 2017 dalla Universal Music Group" 
+		},
+		{
+			"codice": "2",
+			"titolo": "Let It Be",
+			"autore": "Beatles",
+			"canzoni": [
+				{
+					"titolo": "Dig a pony",
+					"partecipazioni" : [ 
+						{ "musicista": "John Lennon", "strumento": "VOCE"}, 
+						{ "musicista": "John Lennon", "strumento": "CHITARRA"}, 
+						{ "musicista": "Paul McCartey", "strumento": "VOCE"}, 
+						{ "musicista": "George Harrison", "strumento": "CHITARRA"} 
+					]
+				},
+				{
+					"titolo": "Let it be",
+					"partecipazioni" : [ 
+						{ "musicista": "Paul McCartey", "strumento": "VOCE" }, 
+						{ "musicista": "Paul McCartey", "strumento": "PIANO" } 
+					]
+				}
+			],
+			"prezzo": 15.30,
+			"genere": "ROCK",
+			"dataCaricamento": "22-06-2017",
+			"percorsoFoto": "http://i.ebayimg.com/thumbs/images/g/TOMAAOSwsXFZIvPF/s-l96.jpg",
+			"descrizione": "Rimasterizzazione del CD per il 60esimo della nascita del gruppo" 
+		},
+		{
+			"codice": "3",
+			"titolo": "Magellano",
+			"autore": "Francesco Gabbani",
+			"canzoni": [
+				{
+					"titolo": "Magellano",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Tra le granite e le granate",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Occidentali's Karma",
+					"partecipazioni" : []
+				}
+			],
+			"prezzo": 12.72,
+			"genere": "POP",
+			"dataCaricamento": "22-06-2017",
+			"percorsoFoto": "http://www.ondefunky.com/wp-content/uploads/2017/04/file3.jpg",
+			"descrizione": "Etichetta: Bmg Rights Management" 
+		},
+		{
+			"codice": "4",
+			"titolo": "The Perfect Miles Davis Collection",
+			"autore": "Miles Davis",
+			"canzoni": [
+				{
+					"titolo": "Round Midnight",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Ah-Leu-Cha",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "All of You",
+					"partecipazioni" : []
+				}
+			],
+			"prezzo": 12.72,
+			"genere": "ROCK",
+			"dataCaricamento": "21-09-2016",
+			"percorsoFoto": "https://edouardstenger.files.wordpress.com/2012/12/perfect-miles-davis-collection.jpg?w=700",
+			"descrizione": "Etichetta: Legacy Recordings" 
+		},
+		{
+			"codice": "5",
+			"titolo": "Appetite for Destruction",
+			"autore": "Guns N' Roses",
+			"canzoni": [
+				{
+					"titolo": "Welcome To The Jungle",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "It's So Easy",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Nightrain",
+					"partecipazioni" : []
+				}
+			],
+			"prezzo": 7.67,
+			"genere": "ROCK",
+			"dataCaricamento": "21-09-2016",
+			"percorsoFoto": "http://i.ebayimg.com/images/g/WFkAAOSwI-BWOKch/s-l64.jpg",
+			"descrizione": "Etichetta: Geffen Records" 
+		},
+		{
+			"codice": "6",
+			"titolo": "Mozart 225: The New Complete Edition",
+			"autore": "Mozart",
+			"canzoni": [
+				{
+					"titolo": "Nannerl Notenbuch (excerpts)",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Sonatas and Variations for Piano & Violin",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Piano Trios",
+					"partecipazioni" : []
+				}
+			],
+			"prezzo": 250.50,
+			"genere": "CLASSICA",
+			"dataCaricamento": "21-09-2016",
+			"percorsoFoto": "http://s2.evcdn.com/images/block/I0-001/038/218/913-6.jpeg_/mostly-mozart-13.jpeg",
+			"descrizione": "Nessuna descrizione" 
+		},
+		{
+			"codice": "7",
+			"titolo": "Morricone 60 Years Of Music",
+			"autore": "Ennio Morricone",
+			"canzoni": [
+				{
+					"titolo": "The Man With The Harmonica",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "The Good, The Bad And The Ugly",
+					"partecipazioni" : []
+				},
+				{
+					"titolo": "Per Un Pugno Di Dollari: Titoli",
+					"partecipazioni" : []
+				}
+			],
+			"prezzo": 250.50,
+			"genere": "CLASSICA",
+			"dataCaricamento": "21-09-2016",
+			"percorsoFoto": "https://images-na.ssl-images-amazon.com/images/I/51ROQhp%2BMGL.jpg",
+			"descrizione": "Nessuna descrizione" 
+		}
+	],
+	"scorte" : [
+		{
+			"codice" : "1",
+			"pezzi" : 3
+		},
+		{
+			"codice" : "2",
+			"pezzi" : 2
+		},
+		{
+			"codice" : "7",
+			"pezzi" : 20
+		}
+	],
+	"clienti" : [
+		{
+			"codiceFiscale" : "000000000000",
+			"nome"          : "Mario",
+			"cognome"       : "Bianchi",
+			"nickname"		: "mario55",
+			"password"		: "Adriana",
+			"citta"			: "Mantova",
+			"telefono"		: "0376123654",
+			"cellulare"		: ""
+		}
+	],
+	"vendite" : [
+		{
+			"nickCliente" 	: "mario55",
+			"prodotti"		: [ "1", "2", "3"],
+			"prezzoTotale"	: 250.50,
+			"dataAcquisto"	: "11-05-2017",
+			"ip"			: "10.0.50.210",
+			"pagamento"		: "PAYPAL",
+			"consegna"		: "CORRIERE"
+		},
+		{
+			"nickCliente" 	: "mario55",
+			"prodotti"		: [ "4", "5", "6"],
+			"prezzoTotale"	: 250.50,
+			"dataAcquisto"	: "12-05-2017",
+			"ip"			: "10.0.50.210",
+			"pagamento"		: "PAYPAL",
+			"consegna"		: "CORRIERE"
+		},
+		{
+			"nickCliente" 	: "mario55",
+			"prodotti"		: [ "1", "2", "7"],
+			"prezzoTotale"	: 250.50,
+			"dataAcquisto"	: "13-05-2017",
+			"ip"			: "10.0.50.210",
+			"pagamento"		: "PAYPAL",
+			"consegna"		: "CORRIERE"
+		}
+	]
+}

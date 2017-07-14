@@ -1,0 +1,92 @@
+\chapter{Testing}
+
+\section{Test automatici}
+
+Sono effettuati test automatici  sulle classi di \texttt{incud.immutable}, \texttt{incud.stato} e \texttt{incud.util}. Il framework usato è JUnit 4. I test si trovano nel package \texttt{incud.test}.
+
+\section{Test manuali}
+
+% ============================== COMANDI ============================== 
+\newlength{\testdesc}
+\setlength{\testdesc}{\textwidth-4cm}
+
+\NewDocumentCommand\TestCase{m m m m o}{%
+    \vspace{1em}
+    \begin{center}
+    \begin{tabular}{@{} l p{\testdesc} @{}}
+        \multicolumn{2}{c}{\bfseries #1 (#2)} \\ \addlinespace%
+        Esito atteso:  & #3 \\
+        Superato:      & #4 \\ 
+    \IfValueT{#5}{
+        Note: & #5 \\
+    }
+    \end{tabular}
+    \end{center}
+}
+% ===================================================================== 
+
+\TestCase{Caricamento catalogo}{T1}
+    {All'avvio del programma, viene caricato il catalogo.}
+    {Si}
+
+\TestCase{Ritorno al catalogo tramite menù}{T2}
+    {Da una qualsiasi pagina, premendo "Torna al catalogo" viene visualizzato il catalogo.}
+    {Si}
+
+\TestCase{Visualizzazione dettagli}{T3}
+    {Premendo sul pulsante "Visualizza dettagli" sotto la foto di un album all'interno del catalogo, viene visualizzata la pagina dei dettagli.}
+    {Si}
+
+\TestCase{Aggiunta elemento al carrello di pezzi in magazzino}{T4}
+    {Nella pagina di dettaglio di un disco, il cui campo scorte è positivo non nullo, premendo "Aggiungi al catalogo" viene visualizzato un messaggio di conferma che ti chiede poi di aprire il carrello o rimanere nella pagina corrente.}
+    {Si}
+
+\TestCase{Aggiunta elemento al carrello di pezzi non in magazzino}{T5}
+    {Nella pagina di dettaglio di un disco, il cui campo scorte è positivo  nullo, premendo "Aggiungi al catalogo" viene visualizzato un messaggio di errore.}
+    {Si}
+
+\TestCase{Visualizzazione del carrello}{T6}
+    {Premendo nel menu la voce "Naviga" e poi "Vai al carrello", viene aperto il carrello.}
+    {Si}
+
+\TestCase{Rimozione di pezzi dal carrello}{T7}
+    {Facendo doppio click su una delle voci nel carrello, viene aperto un messaggio che chiede se rimuovere o meno l'elemento dal carrello.}
+    {Si}
+
+\TestCase{\makecell{Aggiunta dell'ultimo pezzo di un disco dal carrello, \\ rimozione dal carrello e nuova aggiunta}}{T7.1}
+    {Aggiungo gli elementi di un disco fino a che le scorte non si esaguriscono, vado nel carrello e rimuovo un elemento di quel disco dal carrello, poi provo a riaggiungere un disco.}
+    {Si}[Il caso di test controlla il corretto funzionamento del re-inserimento dei dischi aggiunti al carrello ma non acquistati.]
+
+\TestCase{Login con credenziali sbagliate}{T8}
+    {Facendo il login, viene visualizzato il dialog che chiede i dati. Inserendo il nome utente di un cliente non esistente, viene visualizzato un messaggio d'errore. Inserendo il nome utente di un cliente esistente ma la password sbagliata, viene visualizzato un messaggio d'errore.}
+    {Si}
+
+\TestCase{Login con credenziali corrette}{T9}
+    {Mi autentico con credenziali corrette. Viene visualizzato il catalogo}
+    {Si}
+
+\TestCase{Caricamento catalogo di un cliente autenticato}{T9.1}
+    {Alla fine del login viene caricato il carrello personalizzato per l'utente.}
+    {Si}
+    
+\TestCase{Cambiamento preferenze utente}{T9.2}
+    {Acquisto tante volte dischi il cui genere è diverso dal genere preferito del cliente. Il catalogo dovrebbe cambiare preferenze.}
+    {Si}
+
+\TestCase{Pagamento da utente non autenticato}{T10}
+    {Viene richiesta l'autenticazione. In caso di autenticazione fallita viene chiuso il pagamento. In caso di autenticazione corretta viene aperto il dialog per pagare. Continua sul test T11.}
+    {Si}
+
+\TestCase{Pagamento da utente autenticato}{T11}
+    {Viene aperto il dialog per pagare. Premendo sul tasto paga si visualizza un messaggio e poi si torna al catalogo.}
+    {Si}
+
+\TestCase{Registrazione di utente già nel sistema}{T12}
+    {Viene aperto il dialog per registrarsi. Alla pressione del pulsante "Registra" viene visualizzato un messaggio che dice "Il nickname è stato già scelto"}
+    {Si}
+
+\TestCase{Registrazione di nuovo utente}{T13}
+    {Viene aperto il dialog per registrarsi. Si inseriscono i dati, tra cui un nickname non già utilizzato. Si conferma. Viene visualizzato un messaggio di conferma e poi aperto il catalogo.}
+    {Si}
+
+
